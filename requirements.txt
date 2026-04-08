@@ -1,0 +1,7 @@
+networkx>=3.0
+
+# 可选依赖（按需安装）：
+# jieba>=0.42         # 中文分词（用于生产环境关键词提取）
+# python-louvain>=0.16  # Louvain 社群检测算法
+# torch>=2.0          # PyTorch（用于替换内置 EWMA 的 GRU/KGCN 模型）
+# scikit-learn>=1.3   # TF-IDF 向量化
